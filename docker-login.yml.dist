@@ -3,7 +3,7 @@
   hosts: manager
   remote_user: root
   become: yes
-  ecome_user: deploy
+  become_user: deploy
   vars_prompt:
     - name: registry
       prompt: "Registry"

@@ -8,8 +8,12 @@
 	/provisioning/docker-login.yml
 	/provisioning/authorize.yml
 
-1. cd provisioning && make site
+1. make site
 
 2. make authorize
+
+3. make generate-deploy-key
+
+4. make authorize-deploy
 
 3. make docker-login
